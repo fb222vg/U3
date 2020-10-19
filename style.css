@@ -10,20 +10,50 @@ body {
     "footer footer";
 }
 nav {
-    display: block;
+    display: inline-block;
+    transition-property: border-radius;
+
+}
+nav:hover {
+    border-radius: 45px;
+
 }
 nav ul {
     list-style: none;
-    display: block;
+    display: inline-block;
+    transition-property: border-radius;
+   
     
+}
+nav ul:hover{
+    border-radius: 45px; 
+}
+nav a {
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+    padding: 0.3rem;
+    border-radius: 5px;
+    transition-property: border-radius;
+    transition-duration: 2s;
 }
 nav a:link, nav a:visited {
     background-color: rgb(209, 202, 189);
     color: rgb(9, 10, 7);
 }
+nav a:hover {
+    border-radius: 45px;
+}
 nav a:hover, nav a:active {
     background-color: rgb(235, 230, 229);
     color: rgb(163, 23, 23);
+    
+}
+h1 {
+
+}
+h3 {
+    font-family: cursive;
 }
 header {
 grid-area: header;
@@ -38,14 +68,73 @@ main {
     font-size: larger;
     margin-right: 100px;
     margin-top: 100px;
+    color: rgb(255, 255, 255);
+    
 }
 aside {
     grid-area:aside;
     margin-top: 100px;
+    font-size: larger;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-style: italic;
+    font-family: cursive;
+    color: white;
+}
+footer {
+    grid-area: footer;
 }
 #räka {
     width: 450px;
     height: 250px;
     border-radius: 400px;
+    box-shadow: 10px 5px 20px 2px #000000;
     
+}
+#booking fieldset div {
+    display:grid;
+    gap:2em;
+    white-space: nowrap;
+    }
+#antalPersoner div {
+    grid-template-columns: 1fr 1fr;
+}
+#send input {
+    font-size: 1em;
+    border-radius: 0.5em;
+    background-color: indigo;
+    font-style:italic;
+    font-weight: bolder;
+}
+#box1 {
+    background-color: rgb(93, 84, 177);
+    text-align: center;
+    margin-bottom: 1em;
+}
+#wrapper {
+    box-sizing: border-box;
+}
+#wrapper div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px 2px #000000;
+}
+#start {
+    background-color: rgb(77, 148, 109);
+    width: 100%;
+    padding: 8px;
+    
+}
+#linje {
+    color: rgb(9, 10, 7);
+}
+#restaurang{
+    width: 100%;
+    height: 100%;
+}
+.thisPage {
+    color: rgb(236, 8, 8)!important;
+    background-color: rgb(233, 175, 16)!important;
 }

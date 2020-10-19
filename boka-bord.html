@@ -15,6 +15,44 @@
         <li><a class="thisPage" href="boka-bord.html">Boka bord</a></li>
         <li><a href="hitta-hit.html">Hitta hit</a></li>
     </nav>
+    <main>
+        <h3>
+            Har du frågor eller speciella önskemål gällande ditt besök?
+            Då är du välkommen att kontakta oss på vårt telefonnummer <br><u>08-0880 808</u>
+        </h3>
+
+    </main>
+    <aside>
+        <form id="booking">
+            <fieldset id="antalPersoner">
+                <legend>
+                    Boka bord
+                </legend>
+                <div>
+                    <label for="Ankomstdag"> Datum
+                        <input type="date" name="arrival" required>
+                    </label>
+                    <label for="antalPersoner">
+                        Antal personer i sällskapet
+                        <select name="nrOfguests">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="send">
+                    <input type="submit" value="Boka">
+                </div>
+
+            </fieldset>
+        </form>
+    </aside>
     
 </body>
 </html>
