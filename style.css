@@ -55,7 +55,7 @@ nav a:hover, nav a:active {
 }
 h1 {
 color: #f7f7f7;
-opacity: ;
+
 }
 h3 {
     
@@ -179,11 +179,29 @@ footer {
     opacity: 0.7;
     
 }
+
 .thisPage {
     color: rgb(236, 8, 8)!important;
     background-color: rgb(233, 175, 16)!important;
 }
 .box2 {
     background-color:#000000;
-    opacity: 0.3;
+    opacity: 0.7;
+    margin-top: 50px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-left: 800px;
+    
+
+}
+.box3 {
+    position: absolute;
+    top: 130px;
+    width: 300px;
+    margin-left: 800px;
+    
+    
+   
+    
 }
