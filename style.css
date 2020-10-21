@@ -52,7 +52,7 @@ nav a:hover, nav a:active {
     
 }
 h1 {
-
+color: #f7f7f7;
 }
 h3 {
     
@@ -84,6 +84,17 @@ aside {
 article {
     grid-area:article;
     
+}
+section {
+    display: flex;
+}
+section li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+section img {
+    width:300px;
 }
 footer {
     grid-area: footer;
@@ -150,6 +161,13 @@ footer {
     height: 400px;
     background-size: 100%;
     background-position: center;
+}
+#galleri img {
+    transition:transform 1s;
+    border-radius: 10px;
+}
+#galleri img:hover {
+    transform:scale(1.2)
 }
 .thisPage {
     color: rgb(236, 8, 8)!important;
