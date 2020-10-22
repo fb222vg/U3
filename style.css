@@ -101,6 +101,8 @@ section img {
 }
 footer {
     grid-area: footer;
+    color: white;
+    background-color: rgb(9, 10, 7);
 }
 #räka {
     width: 450px;
@@ -125,7 +127,7 @@ footer {
     font-weight: bolder;
 }
 #box1 {
-    background-color: rgb(93, 84, 177);
+    background-color: rgb(194, 145, 12);
     text-align: center;
     margin-bottom: 1em;
 }
@@ -177,6 +179,14 @@ footer {
 #galleri img:hover {
     transform:scale(1.2);
     opacity: 0.7;
+    
+}
+#wrapper3 {
+    display: flex;
+}
+#fot1 {
+    margin-left:100px;
+    text-align: center;
     
 }
 
