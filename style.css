@@ -80,7 +80,6 @@ aside {
     margin-top: 100px;
     font-size: larger;
     margin-right: 100px;
-    margin-top: 100px;
     font-style: italic;
     color: white;
 }
@@ -172,7 +171,7 @@ footer {
     transition:transform 1s;
     border-radius: 10px;
     opacity:1;
-    transition-property: opacity 1s;
+    
     
 
 }
@@ -188,6 +187,10 @@ footer {
     margin-left:100px;
     text-align: center;
     
+}
+#bord {
+    width: 50%;
+    margin: 30px 30px 30px 300px;
 }
 
 .thisPage {
