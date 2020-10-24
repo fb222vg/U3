@@ -195,6 +195,10 @@ footer {
     width: 50%;
     margin: 30px 30px 30px 300px;
 }
+#havsutsikt {
+    width: 75%;
+    padding: 60px;
+}
 
 .thisPage {
     color: rgb(236, 8, 8)!important;
