@@ -126,6 +126,7 @@ footer {
     font-weight: bolder;
     margin-top: 20px;
 }
+
 #box1 {
     background-color: rgb(194, 145, 12);
     text-align: center;
@@ -135,6 +136,19 @@ footer {
 }
 #box2 {
 
+}
+#box9 {
+    background-color: rgb(194, 145, 12);
+    text-align: center;
+    width: 75%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-style: groove; 
+    border-radius: 100px;
+    
 }
 #wrapper {
     box-sizing: content-box;
@@ -156,12 +170,12 @@ footer {
 #start {
     background-color: rgb(77, 148, 109);
     width: 100%;
-    padding: 8px;
+    padding: 30px;
     
 }
 
 #restaurang{
-    width: 100%;
+    width: 125%;
     height: 100%;
 }
 #oppet {
