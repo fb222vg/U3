@@ -206,6 +206,8 @@ footer {
     width: 100%;
     padding: 30px;
     
+    
+    
 }
 
 #restaurang{
@@ -245,7 +247,7 @@ footer {
 }
 #bord {
     width: 50%;
-    margin: 30px 30px 30px 300px;
+    margin: 30px 300px 30px 300px;
 }
 #havsutsikt {
     width: 75%;
