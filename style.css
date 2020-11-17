@@ -24,10 +24,19 @@ nav ul {
     list-style: none;
     display: flex;
     transition-property: border-radius;
+
     
    
     
 }
+nav ul ul {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    
+}
+
 nav ul:hover{
     border-radius: 45px; 
 }
